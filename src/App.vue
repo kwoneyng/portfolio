@@ -9,12 +9,11 @@
 export default {
   data(){
     return{
-      width:document.body.clientWidth,
-      height:document.body.clientHeight
+      width:window.innerWidth,
+      height:window.innerHeight,
     }
   },
   mounted(){
-    console.log(this.width, this.height)
   }
 }
 </script>
